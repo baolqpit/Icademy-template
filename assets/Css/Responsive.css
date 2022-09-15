@@ -1,0 +1,342 @@
+
+@media (max-width: 2000px) {
+    .header-wrapper {
+        padding: 32px 100px;
+    }
+
+    .about-container {
+        padding: 0 15px;
+        margin: 0 22%;
+        width: 60%;
+    }
+
+    .about-content {
+        margin: 0 50px 15px 50px;
+    }
+
+    .about-content .title {
+        margin-bottom: 24px;
+        font-size: 56px;
+    }
+
+    .section_reason1-container .wrapper {
+        margin: 0 200px;
+    }
+
+    
+}
+
+@media (max-width: 1537px) {
+    .about-container {
+        margin: 0 10%;
+        width: auto;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 1370px) {
+    .header-wrapper {
+        padding: 32px 80px;
+    }
+
+    .about-container {
+        width: auto;
+        margin: 0 5%;
+    }
+
+    .amt-3 {
+        right: -65px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .header-wrapper {
+        padding: 32px 40px;
+    }
+    
+    .nav-pc-list-items .item{
+        padding: 10px 0;
+        margin-left: 15px;
+    }
+
+    .nav-pc-list-items li a {
+        font-size: 13px;
+    }
+
+    .nav-pc-list-items li:last-child {
+        padding: 12px 15px;
+        margin-left: 15px;
+    }
+
+    .about-container {
+        margin: 0 0;
+        padding: 0 15px;
+        width: auto;
+    }
+
+    .amt-3 {
+        top: -85px;
+        right: -90px;
+        width: 290px;
+        height: 240px;
+    }
+
+    .img-content {
+        width: auto;
+        margin: 0 10%
+    }
+
+    .about-content .title {
+        font-size: 52px;
+        font-weight: 700;
+    }
+
+    .about-content .description {
+        margin-bottom: 20px;
+    }
+
+    .section_reason1-container {
+        margin: 0;
+        padding: 0 15px;
+    }
+
+    .section_reason1-container .wrapper {
+        margin: 0;
+    }
+
+    .section_reason1 .details img {
+        width: 215px;
+        height: 194px;
+    }
+
+    .section_reason1 .special {
+        background-position: left -14px, left bottom, right -10px, right 103%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-wrapper {
+        padding: 32px 50px;
+    }
+}
+
+@media (max-width: 769px) {
+    .about-content .title {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    .about-content .description {
+        line-height: 22px;
+        font-size: 14px;
+        margin: 0 20px;
+    }
+
+    .img-content {
+        margin: 0;
+    }
+
+    .sign-up-btn {
+        margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .section_reason1-container {
+        width: auto;
+        padding: 0 15px;
+        margin: 0 2%
+    }
+
+    .section_reason1 .header-section h3 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .section_reason1 .details {
+        flex-wrap: wrap;
+    }
+
+    .section_reason1 .details li {
+        width: 45%;
+    }
+
+    .section_reason1 .details li img {
+        width: 175px;
+        height: 154px;
+    }    
+
+    .section_reason1 .details li:not(:first-child) {
+        margin-left: 0;
+    }
+
+    .section_reason1 .special {
+        background-size: 0%;
+    }
+
+    .nav-mobile-list {
+        padding: 10px 30px 20px 30px;
+        letter-spacing: -0.6px;
+    }
+
+    
+}
+
+@media (max-width: 875px) {
+    .header-wrapper {
+        display: none;
+    }
+
+    .mobile-wrapper {
+        padding: 15px 25px;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        padding: 15px 25px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 3px 4px 0 rgb(0 0 0 / 10%), 0 1px 10px 0 rgb(0 0 0 / 1%);
+        background-color: #fff;
+    }
+
+    .mobile-img-logo {
+        max-width: 150px;
+        display: block;
+    }
+
+    .mobile-img-logo .logo {
+        width: 150px;
+        height: 55px;
+    }
+
+    .nav-mobile-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px 25px;
+        font-size: 14px;
+        line-height: 22px;
+        color: #666666;
+        font-weight: 700;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    .mobile-btn {
+        display: inline;
+        position: relative;
+        align-items: center;
+        font-size: 24px;
+        float: left;
+        cursor: pointer;
+    }
+
+    .nav-mobile {
+        position: absolute;
+        z-index: 0;
+        left: 0;
+        top: 75px;
+        background-color: #fff;
+        width: 100%;
+        display: none;
+        box-shadow: 0 3px 4px 0 rgb(0 0 0 / 10%), 0 1px 10px 0 rgb(0 0 0 / 1%);
+    }
+
+    .nav-mobile-list li {
+        margin-bottom: 15px;
+        transition: 0.3s;
+    }
+
+    .nav-mobile-list li:hover a {
+        color: rgba(141, 198, 63, 1);
+    }
+
+    .nav-mobile-list a {
+        text-decoration: none;
+        color: #666666;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 22px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .amt-1, .amt-2, .amt-3, .amt-4 {
+        display: none;
+    }
+}
+
+@media (max-width: 376px) {
+    .about-container {
+        padding: 0 15px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .about-content {
+        margin: 0 0 15px 0;
+    }
+
+    .about-content .title {
+        font-size: 28px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .about-content .description {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .sign-up-btn {
+        font-size: 11px;
+        line-height: 14px;
+        padding: 7px 20px;
+    }
+
+    .img-content {
+        margin: 0;
+    }
+
+    .nav-mobile-list {
+        padding: 5px 10px 10px 10px;
+        
+        line-height: 20px;
+        letter-spacing: -1px;
+    }
+
+    .nav-mobile-list a {
+        font-size: 10px;
+    }
+
+    .section_reason1 .header-section h3 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .section_reason1 .details li img {
+        width: 115px;
+        height: 94px;
+    }
+
+    .section_reason1 .details .text {
+        line-height: 16px;
+        font-size: 10px;
+    }
+
+    .section_reason1 .special {
+        padding: 30px 50px;
+    }
+
+    .section_reason1 .special p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+}
+
+
+
+
